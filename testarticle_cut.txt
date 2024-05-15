@@ -1,0 +1,16 @@
+DOI: https://dx.doi.org/10.30919/es8d517 Nickel Oxide Embedded with Polymer Electrolyte as Efficient 
+Hole Transport Material for Perovskite Solar Cell Monika Srivastava, Karan Surana, Pramod Kumar Singh and Ram Chandra Singh* Abstract The use of organic hole transport material (HTM) is usually quite expensive owing to its synthesis procedure and high purity 
+requirement. Therefore, we have synthesized an inexpensive, inorganic HTM, nickel oxide (NiO). The perovskite precursor i.e., 
+CH3NH3I were also synthesized and characterized for surface morphology and elemental analysis. Perovskite solar cell (PSC) 
+was successfully prepared using NiO as the HTM with a supporting layer of polymer electrolyte. The fabricated  sandwich-
+structured  PSC  exhibited  an  open circuit  voltage (Voc)  of  0.77  V,  short  circuit  density  (Jsc)  of 18  mA/cm2,  and  an effective 
+photon conversion efficiency (PCE) of 5.13%. Keywords: Perovskite; Polymer electrolyte; Nickel oxide; Perovskite solar cell; Hole transport material. 
+Received: 14 June 2021; Revised: 23 August 2021; Accepted: 30 August 2021. 
+Article type: Research article. In the present work, we report the synthesis of perovskite 
+(CH3NH3PbI3) material in ambient conditions. The synthesis 
+of  NiO  was  carried  out  using  a  simple  sol-gel  method. The 
+prepared  materials  were  further  characterized  for  UV–Vis 
+absorption,x–ray  diffraction  (XRD),  energy  dispersive–ray 
+(EDX),  and  scanning  electron  microscopy  (SEM). The prepared sandwich 
+structured PSC with a supporting layer of polymer  electrolyte  resulted  in  a  
+Voc  of  0.77  V,  Jsc  of  18 mA·cm-2, and PCE of 5.13% in an ambient condition.
