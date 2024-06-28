@@ -16,6 +16,12 @@ Files:
     - CID_to_SMILES.ipynb (transform CIDs to SMILES representation which is more suitable for ML.)
 
 # Step 3 
-ML analyses. It is currently worked on.
+Machine Learning analyses for PCE prediction.
+
+Model_1_CrabNet_with_Label_Encoding.ipynb contains a PCE prediction using the absorber layer as formula and the Etl, HTL and device stack information as additionial variables for the model. The results are middling.
+
+Model_2_CrabNet_CrabNet_with_device_stack_formulas.ipynb contains a PCE prediction for which the device stack materials were transformed into chemical formulas and then entirely used as formula for prediction.
+
+Model_3_Graph_Neural_Network.ipynb contains a PCE prediction using a graph neural network, which interprets the molecules as nets of featurized nodes and edges.
 
 
