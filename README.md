@@ -1,27 +1,11 @@
 This repository belongs to my master thesis. The goal is to analyze charge transport layers (CTL) of perovskite solar cells (PSC) using machine learning (ML).
 
-# Step 1 
-Fetch the PSC data from the NOMAD database, in which 43 119 PSCs are documented.
-Files:
-    
-    - fetch_psc_data.ipynb
+Research Objective 1 compiles a dictionary of CTL names to SMILES codes. To reproduce the process, run the following files in order:
 
-# Step 2 
-Identify PubChem CIDs for the CTL materials. For materials with non-chemical names this is done using Llama3-70b-8192. With this pipeline, 825 of the 2559 materials can be identified which accounts for
-80-90% of cells.
-Files:
+1. fetch_psc_data.ipynb: This will download the data from the NOMAD repository.
+2. Describe_CTLs.ipynb: This is optional for inspecting the data.
+3. Identify_CID_v2.ipynb: This is the core of Research Objective 1. It transforms CTL names to PubChem CIDs. To execute it, you will need API keys for groq and Elsevier, though.
+4. Identification_results.ipynb: This checks how successful the identification was and creates a dataframe which is later used in Research Objective 2.
+5. CID_to_SMILES.ipynb: This is optional and transforms the PubChem CIDs to SMILES codes.
 
-    - Identify_CID_v2.ipynb (find CIDs for the CTL materials. The core part of data curation.)
-    - How_many_cells_identified.ipynb (for checking the results of the identification pipeline)
-    - CID_to_SMILES.ipynb (transform CIDs to SMILES representation which is more suitable for ML.)
-
-# Step 3 
-Machine Learning analyses for PCE prediction.
-
-Model_1_CrabNet_with_Label_Encoding.ipynb contains a PCE prediction using the absorber layer as formula and the Etl, HTL and device stack information as additionial variables for the model. The results are middling.
-
-Model_2_CrabNet_CrabNet_with_device_stack_formulas.ipynb contains a PCE prediction for which the device stack materials were transformed into chemical formulas and then entirely used as formula for prediction.
-
-Model_3_Graph_Neural_Network.ipynb contains a PCE prediction using a graph neural network, which interprets the molecules as nets of featurized nodes and edges.
-
-
+Research Objective 2 compares three different machine learning approaches for predicting PCE using the CTL informaition gained in Research Objective 1. First, you should run data_prep_ML.ipynb, which performs some general data preparation for all ML approaches. Afterwards, you can run either of the three ML files: CrabNet.ipynb, XGBoost.ipynb, GNN_prediction.ipynb. The GNN models are collected within the folder "models". The XGBoost models are collected within the folder "models/trained_models".
