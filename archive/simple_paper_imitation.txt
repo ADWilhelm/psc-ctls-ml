@@ -1,7 +1,0 @@
-To form a 2D phase, PEA-based additives had an
-anion component mixture of I and SCN with
-various ratios of SCN/(SCN + I), ranging from
-0 to 100%. Solar cells were fabricated with
-an indium tin oxide (ITO)/poly(triaryl amine)
-(PTAA)/perovskite/C60/bathocuproine (BCP)/
-Ag device structure (fig. S1).
