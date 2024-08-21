@@ -1,5 +1,7 @@
 # .gitignore
 api_keys.py
+ResObj_1/api_keys.py
+ResObj_3/api_keys.py
 archive/
 .ipynb_checkpoints/
 .vscode/
